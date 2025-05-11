@@ -1,9 +1,29 @@
 .messagesWrapper_add28b, [class*="messagesWrapper"] {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
+[class*="chatContent"] [class*="form"] {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
 
+/* Mosysepro Community */
 body:has([href*="/channels/1256634172932493373"]) .chatContent_f75fb0 {
     background-image: url("https://cdn.discordapp.com/banners/1370730989478744165/8190f41c7ea0a3e63cb641711430d5b5.png?size=4096&width=1280&height=0") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Los Compadretes */
+body:has([href*="/channels/798971003325382657"]) .chatContent_f75fb0 {
+    background-image: url("https://cdn.discordapp.com/icons/798971003325382657/08f4c48e773fe07bc156206ca745e042.webp?size=640") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Paralelepípedo */
+body:has([href*="/channels/1304797587198709860"]) .chatContent_f75fb0 {
+    background-image: url("https://cdn.discordapp.com/attachments/1289278847136567410/1351969965753765928/ab396478c4469a1f04bf9c153ff7ffab.png?ex=68218666&is=682034e6&hm=4628e2a4761a6c9905a72b7d8fafe8ba4bfa3366400a08dac37ce525290da192&") !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
