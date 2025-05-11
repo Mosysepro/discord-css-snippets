@@ -3,6 +3,54 @@
 @import url("https://aushevahmad.github.io/awesome-css/modules/declutter.css");
 @import url("https://aushevahmad.github.io/awesome-css/modules/acrylicpopup.css");
 
+/* Remove server activity panel */
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+  display: none;
+}
+
+/* Remove quick reactions */
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(1),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(2),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(3),
+.separator_f84418 {
+   display: none;
+}
+
+
+/* Collapsable clan tags */
+[class^="chipletContainerInner_"] > span > .unselectable__10651 {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0ch;
+  padding: 0;
+  transition: width .5s ease, padding .5s ease;
+}
+[class^="chipletContainerInner_"] > span > img.badge__10651 {
+  margin-right: .3ch;
+  transform: rotateZ(0deg);
+  transition: transform .6s ease;
+}
+[class^="chipletContainerInner_"] {
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 2px;
+  transform: perspective(200px) rotateY(0deg);
+  transition: transform .4s ease;
+}
+[class^="chipletContainerInner_"]:hover {
+  transform: perspective(200px) rotateY(8deg);
+}
+[class^="chipletContainerInner_"]:hover > span > .unselectable__10651 {
+  width: 4ch;
+  margin-right: 4px;
+  padding: 0 .3ch;
+}
+[class^="chipletContainerInner_"]:hover > span > img.badge__10651 {
+  transform: rotateZ(360deg);
+}
+
 /* Collapsable search bar */
 .search__97492:not(.open__97492) .searchBar__97492 {
   width: 27px;
