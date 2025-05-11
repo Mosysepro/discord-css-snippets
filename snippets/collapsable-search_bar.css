@@ -1,0 +1,23 @@
+.search__97492:not(.open__97492) .searchBar__97492 {
+  width: 27px;
+  background-color: transparent;
+}
+.search__97492:not(.open__97492):hover .searchBar__97492 {
+  width: 184px;
+  background-color: var(--background-tertiary);
+}
+.search__97492:not(.open__97492) .iconContainer_fea832 {
+  transform: scale(1.1);
+}
+.search__97492:not(.open__97492):hover .iconContainer_fea832 {
+  transform: scale(1);
+}
+.search__97492:not(.open__97492) .icon_fea832 {
+  color: var(--text-normal);
+}
+.search__97492:not(.open__97492):hover .icon_fea832 {
+  color: var(--text-muted);
+}
+.search__97492:not(.open__97492) .icon_fea832 {
+  color: #b5bac1;
+}
