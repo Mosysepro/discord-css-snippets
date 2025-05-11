@@ -69,7 +69,7 @@ body:has([href*="/channels/169256939211980800"]) .chatContent_f75fb0 {
 
 /* Vencord */
 body:has([href*="/channels/1015060230222131221"]) .chatContent_f75fb0 {
-    background-image: url("https://cdn.discordapp.com/banners/1015060230222131221/a_a42646da37160e4053f1823649177f0a.gif") !important;
+    background-image: url("https://cdn.discordapp.com/banners/1015060230222131221/a_a42646da37160e4053f1823649177f0a.gif?size=1024") !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
