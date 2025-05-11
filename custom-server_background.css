@@ -29,7 +29,7 @@ body:has([href*="/channels/1256634172932493373"]) .chatContent_f75fb0 {
 
 /* Los Compadretes */
 body:has([href*="/channels/798971003325382657"]) .chatContent_f75fb0 {
-    background-image: url("https://cdn.discordapp.com/icons/798971003325382657/08f4c48e773fe07bc156206ca745e042.webp?size=640") !important;
+    background-image: url("https://cdn.discordapp.com/icons/798971003325382657/08f4c48e773fe07bc156206ca745e042.png?size=1024") !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
