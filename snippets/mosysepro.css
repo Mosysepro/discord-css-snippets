@@ -12,30 +12,9 @@
     }
 }
 
-.chat_f75fb0:has(.subtitleContainer_f75fb0 .avatar__44b0c[src*="918062780555333632"]) .chatContent_f75fb0 {
-    &::before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-image: url("https://img.cocdn.co/_image/optimize/https://cdn.crushon.ai/images/952a1d8c-f93f-11ee-a567-5a11c5ba248f/12f88e95-353c-4a2d-a397-0a60e8f8ee8f?q=75&w=1920");
-        opacity: 0.2;
-        background-position: 100% 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-.chat_f75fb0:has(.subtitleContainer_f75fb0 .avatar__44b0c[src*="800425229323075624"]) .chatContent_f75fb0 {
-    &::before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-image: url("https://cdn.discordapp.com/attachments/1286705797157617685/1371151652660183080/200.png?ex=682217fc&is=6820c67c&hm=1e7d1024029f39cc4901fd0f9446816f0d2353add5e9c09337cee736c09f5389&");
-        opacity: 0.8;
-        background-position: 100% 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+body:has([href*="/channels/1256634172932493373"]) .chatContent_f75fb0 {
+    background-image: url("https://cdn.discordapp.com/banners/1370730989478744165/8190f41c7ea0a3e63cb641711430d5b5.png?size=4096&width=1280&height=0") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
