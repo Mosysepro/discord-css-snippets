@@ -34,8 +34,8 @@
 }
 [class^="chipletContainerInner_"] {
   display: inline-block;
-  padding-left: 4px;
-  padding-right: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
   transform: perspective(200px) rotateY(0deg);
   transition: transform .4s ease;
 }
