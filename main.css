@@ -34,8 +34,8 @@
 }
 [class^="chipletContainerInner_"] {
   display: inline-block;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 4px;
+  padding-right: 2px;
   transform: perspective(200px) rotateY(0deg);
   transition: transform .4s ease;
 }
@@ -61,7 +61,7 @@
   background-color: var(--background-tertiary);
 }
 .search__97492:not(.open__97492) .iconContainer_fea832 {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 .search__97492:not(.open__97492):hover .iconContainer_fea832 {
   transform: scale(1);
