@@ -11,3 +11,17 @@
         background-size: cover;
     }
 }
+
+.chat_f75fb0:has(.subtitleContainer_f75fb0 .avatar__44b0c[src*="918062780555333632"]) .chatContent_f75fb0 {
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://img.cocdn.co/_image/optimize/https://cdn.crushon.ai/images/952a1d8c-f93f-11ee-a567-5a11c5ba248f/12f88e95-353c-4a2d-a397-0a60e8f8ee8f?q=75&w=1920");
+        opacity: 0.2;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
