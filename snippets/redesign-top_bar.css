@@ -50,3 +50,7 @@
         }
     }
 }
+
+[class*="guilds_"] {
+    margin-top: var(--space-8);
+}
