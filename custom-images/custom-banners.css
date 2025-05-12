@@ -1,10 +1,10 @@
-#popout_9197:has([aria-label="mosysepro"]) .banner__68edb {
-  background-image: url("https://media.discordapp.net/attachments/1371482570335850616/1371482570491170948/eventos2.png?ex=68234c2d&is=6821faad&hm=c49f22b9f1e0e19a2534f91d4c162aafbcfe14e20bf0b521c32d4ceef23042df&=&width=500&height=500") !important;
-}
-
 .banner__68edb {
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   opacity: 0.5;
+}
+
+[class*="popout"]:has([aria-label="mosysepro"]) .banner__68edb {
+    background-image: url("https://media.discordapp.net/attachments/1371480352287232010/1371480352433897542/Mosysepro_Studio_-_logo.png?ex=68234a1c&is=6821f89c&hm=dee334e94cd9738dd44f76e8d13712869ec86fc4a20fd8599c1d9b9f5ff83ec2&=&width=953&height=953") !important;
 }
