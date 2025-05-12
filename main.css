@@ -6,6 +6,7 @@
 @import url("https://github.com/Mosysepro/discord-css-snippets/raw/refs/heads/main/snippets/remove-quick_reactions.css"); /* Removes the quick reactions menu when hovering a message. */
 @import url("https://raw.githubusercontent.com/Mosysepro/discord-css-snippets/refs/heads/main/snippets/remove-useless_stuff.css"); /* Removes useless buttons and stuff like the activity start button on the chat bar. */
 @import url("https://github.com/Mosysepro/discord-css-snippets/raw/refs/heads/main/snippets/round-server_icons.css"); /* Makes the server icons at the server list circles. */
+@import url("https://github.com/Mosysepro/discord-css-snippets/raw/refs/heads/main/snippets/compact-context_menu.css"); /* Makes the context menu mor compact. */
 
 /* EXTERNAL LINKS */
 @import url("https://aushevahmad.github.io/awesome-css/modules/acrylicpopup.css");
