@@ -5,5 +5,5 @@ body:has([href*="/channels/1136293640306700409"]) .chatContent_f75fb0 {
     background-repeat: no-repeat !important;
 }
 body:has([href*="/channels/1136293640306700409"]) #channels {
-    background-color: rgba(43, 0, 77, 0.7) !important;
+    background-color: rgba(235, 0, 255, 0.2) !important;
 }
