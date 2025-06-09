@@ -1,0 +1,9 @@
+body:has([href*="/channels/1136293640306700409"]) .chatContent_f75fb0 {
+    background-image: url("https://media.discordapp.net/attachments/1371482570335850616/1371482570491170948/eventos2.png?ex=6848362d&is=6846e4ad&hm=73fe5ef7f4e88c468ea84196e8952fed003754a32378a48a00f94cf25f2f037e&=&width=500&height=500") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+body:has([href*="/channels/1136293640306700409"]) #channels {
+    background-color: rgba(43, 0, 77, 0.7) !important;
+}
